@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&family=Nunito:wght@400;500;800&family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Nunito';
+    overflow: auto;
+background:linear-gradient(-45deg,#9aaa7d,#968686,#509097);
+padding: 30px 50px;
+
+  }
+
+  .navbar-brand {
+    font-family: 'Nunito';
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  span{
+    color: #9aaa7d;
+  }
+
+  .slide-down h1, a, p, button {
+    animation: 2s slide-down;
+    animation-delay: 2s;
+  }
+  
+  @keyframes slide-down {
+    from {
+      margin-top: -200px;
+    }
+  
+    to {
+      margin-top: 0%;
+    }
+  }
+
+  .slide-right h1, a, p, button {
+    animation: 2s slide-right;
+    animation-delay: 2s;
+  }
+  
+  @keyframes slide-right {
+    from {
+      margin-left: -200px;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+  
+
+  .bottom-container {
+    padding: 50px 0 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    display: block;
+  }    
+
+
+  .bottom-container a, h1, p {
+    color: #e9e9eb;
+    margin: 20px 30px;
+    text-decoration: none;
+  }
+
+
+  .bottom-container a {
+      font-size: 20px;
+      padding-top: 40px;
+  }
+
+.btn-1 {
+    margin-bottom: 40px;
+}

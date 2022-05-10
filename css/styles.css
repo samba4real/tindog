@@ -1,0 +1,169 @@
+body {
+  font-family: 'Montserrat';
+  overflow: auto;
+}
+
+
+
+#title {
+  /* background-color: #0A0D22; */
+  
+background:linear-gradient(-45deg,#9aaa7d,#968686,#509097);
+
+}
+
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 900;
+  position: relative;
+}
+
+
+
+p {
+  color: #8f8f8f;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: 'Montserrat';
+  font-weight: 100;
+}
+
+/*  Buttons */
+ .download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image  */
+.title-image {
+  width: 60%;
+transform: rotate(25deg);
+}
+
+
+/* Icons */
+
+.icon {
+  color: #1d1f33;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #004c4c;
+}
+
+
+
+
+.bottom-container {
+background:linear-gradient(-45deg,#9aaa7d,#968686,#509097);
+padding: 50px 0 20px;
+text-align: center;
+
+}
+
+.bottom-container a {
+  color: #fff;
+  margin: 20px 30px ;
+  text-decoration: none;
+  font-size: 20px;
+ 
+}
+
+.copyright {
+  color: #9aaa7d;
+  font-size: 0.75rem;
+
+}
+
+h1::before,
+h1::after {
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+h1::before{
+ 
+  animation:  4s steps(34) forwards;
+  animation-direction: normal;
+}
+
+@keyframes myFirst {
+  to {
+    left: 100% ;
+  }
+}
+
+/* 
+.slide-right {
+  width: 100%;
+  overflow: hidden;
+  margin-left: 400px;
+  max-width: 500px
+} */
+
+.slide-right h1, button {
+  animation: 2s slide-right;
+  animation-delay: 2s;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -200px;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+.slide-down a, .logo {
+  animation: 2s slide-down;
+  animation-delay: 2s;
+}
+
+@keyframes slide-down {
+  from {
+    margin-top: -200px;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
